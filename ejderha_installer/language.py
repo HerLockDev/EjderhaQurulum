@@ -29,4 +29,4 @@ def importlang ():
     return COUNTRY, LANGUAGE, TZ
 
 COUNTRY, LANGUAGE, TZ = importlang()
-LANG = loads(open(f"./alpha_installer/language/{LANGUAGE}.alphajson", "r").read())["STRINGS"]
+LANG = loads(open(f"./ejderha_installer/language/{LANGUAGE}.alphajson", "r").read())["STRINGS"]
